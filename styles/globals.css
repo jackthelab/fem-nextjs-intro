@@ -1,3 +1,10 @@
+:root {
+  --dark-primary: #100F0F;
+  --dark--accent: #0F3D3E;
+  --light-text: #F1F1F1;
+  --light-accent: #E2DCC8;
+}
+
 html,
 body {
   padding: 0;
@@ -20,7 +27,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: var(--light-text);
+    background-color: var(--dark--primary);
   }
 }
