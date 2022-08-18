@@ -23,6 +23,8 @@ const Home: NextPage = () => {
         <h1>Portfolio Site Coming...</h1>
         <Image src={tempLogo} alt='temporary logo' width={32} height={32} />
 
+        <h2>Adding test for PR test</h2>
+
       </main>
 
       <footer className={styles.footer}>
