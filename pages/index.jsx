@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 
 import styles from '../styles/Home.module.css'
@@ -9,9 +8,7 @@ import Image from 'next/image';
 // custom components
 import { NavBar } from '../src/components/navbar';
 
-const Home: NextPage = () => {
-
-  console.log(tempLogo);
+const Home = () => {
 
   return (
     <div className={styles.container}>

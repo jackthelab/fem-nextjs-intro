@@ -13,12 +13,7 @@ body {
   padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: var(--light-text);
-    background-color: var(--dark--primary);
-  }
+body {
+  color: var(--light-text);
+  background-color: var(--dark-primary);
 }
