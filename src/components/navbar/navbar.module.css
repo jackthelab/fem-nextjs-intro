@@ -20,12 +20,12 @@
   flex-grow: 1;
 }
 
-.link {
+.link > a {
   color: var(--light-accent);
   text-decoration: none;
 }
 
-.link:hover {
+.link > a:hover {
   text-shadow: 0 0 5px;
   color: var(--light-text)
 }
