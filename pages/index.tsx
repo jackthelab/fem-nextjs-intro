@@ -6,6 +6,9 @@ import styles from '../styles/Home.module.css'
 import tempLogo from '../public/images/tempLogo.png';
 import Image from 'next/image';
 
+// custom components
+import { NavBar } from '../src/components/navbar';
+
 const Home: NextPage = () => {
 
   console.log(tempLogo);
@@ -19,6 +22,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+
+        <NavBar />
 
         <h1>Portfolio Site Coming...</h1>
         <Image src={tempLogo} alt='temporary logo' width={32} height={32} />
